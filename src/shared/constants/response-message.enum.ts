@@ -1,0 +1,15 @@
+export enum ResponseMessage {
+    DATA_NOT_FOUND = 'Data with ID {id} was not found!',
+    SERVER_ERROR = 'Internal Server Error',
+    UNAUTHORIZED = 'Unauthorized',
+    NOT_VALID_ID = 'ID is not valid!',
+    MOVIE_CREATED = 'Movie successfuly created!',
+    MOVIE_UPDATED = 'Movie successfuly updated!',
+    MOVIE_DELETED = 'Movie successfuly deleted!',
+    USER_CREATED = 'User successfuly created!',
+    USER_NOT_FOUND = 'User with provided email not found',
+    USER_BAD_PASSWORD = 'Password doesn\'t match',
+    USER_ALREADY_EXIST = 'User with this email already exists',
+    BAD_REQUEST = 'Check your request and try again!',
+    NO_MESSAGE = 'OK',
+  }

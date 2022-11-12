@@ -1,0 +1,4 @@
+Build docker image by this command:  docker build . -t <your user name>/movies
+Run docker container by this command: docker run --name movies -p 8000:8050 -e APP_PORT=8050 <your user name>/movies
+
+Run API check: 'http://localhost:8000'
